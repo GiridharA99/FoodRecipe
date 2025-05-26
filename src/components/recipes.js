@@ -11,9 +11,7 @@ export default function Recipe({ categories, foods }) {
   );
 
   return (
-    <View style={styles.container}>
-            <Text style={styles.title} testID="title">Our Recipes</Text>
-
+    <View style={styles.container}>            
       <View testID="recipesDisplay">
       <FlatList
             data={foods}
